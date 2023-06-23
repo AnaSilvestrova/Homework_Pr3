@@ -3,3 +3,26 @@
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125
 */
+
+void Print(string text)
+{
+    Console.WriteLine(text);
+}
+
+int GetIntNum()
+{
+    int number = Convert.ToInt32(Console.ReadLine());
+    return number;
+}
+
+void GetCubes(int number)
+{
+    for (int i = 1; i <= number; i++)
+    {
+        Console.Write($"{Math.Pow(i, 3)}, "); // Возведение в третью степень.
+    }
+}
+
+Print("Input number: .");
+int number = GetIntNum();
+GetCubes(number);
