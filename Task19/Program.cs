@@ -19,4 +19,4 @@ int GetNumber()
 
 Print("Insert 5-digit number --> .");
 
-int number = CheckNumber(); // Вывели число в консоль.
+int number = GetNumberNumber(); // Вывели число в консоль.
